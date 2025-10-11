@@ -15,7 +15,6 @@ void zadanie3()
 
     if(a == 0) // f.liniowa
     {
-        // x1 = -b / (2*a);
         x1 = -c/b;
         printf("Ta funkcja ma jedno miejsce zerowe: %f \n", x1);
         return;
@@ -26,7 +25,7 @@ void zadanie3()
 
     if(delta == 0)
     {
-        x1 = -(b/(2*a));
+        x1 = -b / (2*a);
         printf("Ta funkcja ma jedno miejsce zerowe: %f \n", x1);
         return;
     }
