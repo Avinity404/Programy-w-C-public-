@@ -40,7 +40,7 @@ void zadanie3()
     {
         x1 = (-b - sqrt(delta)) / (2*a);
         x2 = (-b + sqrt(delta)) / (2*a);
-        printf("Ta funkcja ma dwa miejsca zerowe: %f %f", x1, x2);
+        printf("Ta funkcja ma dwa miejsca zerowe: %f %f\n", x1, x2);
         return;
     }
 
