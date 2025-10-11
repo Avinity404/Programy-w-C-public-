@@ -54,6 +54,15 @@ void zadanie2()
     puts("Podaj liczbe do obliczenia modulu:");
     scanf("%d", &n);
 
+    /*
+
+    if(n < 0)
+    {
+        n = -n;
+    }
+        
+    */
+
     n = (n >= 0) ? n : -n;
 
     printf("Modul z tej liczby to: %d\n", n);
