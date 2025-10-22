@@ -13,11 +13,11 @@ int main()
        tab[i] = 1;
     }
        
-    for(int i = 2; i < stop+1; i++)
+    for(int i = 2; i*i < stop+1; i++)
     {
         if(tab[i])
         {
-            for(int j = i+i; j < stop+1; j += i)
+            for(int j = 2*i; j < stop+1; j += i)
             {
                 tab[j] = 0;
             }
